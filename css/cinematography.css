@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+}
+#container{
+    width: 100%;
+    height: 550vh;
+    background-color: rgba(109, 95, 34, 0.288);
+    z-index: -1;
+}
+#header{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    
+}
+#coverphoto{
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: -60px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+}
+#black{
+    width: 1200px;
+    height: 700px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+   z-index: 2;
+}
+#title{
+    font-size: 80px;
+    color:rgb(236, 172, 52);
+    text-shadow: 3px 3px 7px black;
+    text-align: center;
+    position: absolute;
+    left: -650px;
+    top: 200px;
+    z-index: 3;
+}
+#c{
+position: relative;
+display: blflexock;
+}
+#cinematography{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  black;
+    padding: 10px;
+    transition: 1s;
+}
+#cinematography:hover{
+    box-shadow: -3px -3px 5px black;
+}
+#icinematography
+{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+#cinpic{
+    width: 300px;
+    height: 300px;
+}
+#lens{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  black;
+    padding: 10px;
+    transition: 1s;
+}
+#lens:hover{
+    box-shadow: -3px -3px 5px black;
+}
+#ilens{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 20px;
+    top: 380px;
+    clip-path: circle(50% at 50% 50%);
+}
+#dof{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    left: 20px;
+    top: 1000px;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  black;
+    padding: 10px;
+    transition: 1s;
+}
+#dof:hover{
+    box-shadow: -3px -3px 5px black;
+}
+#idof{
+    position: absolute;
+    right: 20px;
+    top: 1010px;
+    width: 480px;
+    height: 680px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+#lighting{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    right: 20px;
+    top: 1840px;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  black;
+    padding: 10px;
+    transition: 1s;
+}
+#lighting:hover{
+    box-shadow: -3px -3px 5px black;
+}
+#ilighting{
+    position: absolute;
+    left: 20px;
+    top: 1860px;
+    width: 480px;
+    height: 700px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+#cmovement{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    left: 20px;
+    top: 2740px;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  black;
+    padding: 10px;
+    transition: 1s;
+}
+#cmovement:hover{
+    box-shadow: -3px -3px 5px black;
+}
+#icmovement{
+    position: absolute;
+    right: 20px;
+    top: 2750px;
+    width: 480px;
+    height: 450px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
